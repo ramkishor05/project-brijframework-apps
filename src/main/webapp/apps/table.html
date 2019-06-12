@@ -1,0 +1,56 @@
+<!-- SHOW HIDE COLUMNS -->
+<div class="widget">
+	<div class="widget-header clearfix">
+		<h3>
+			<i class="icon ion-ios-grid-view-outline"></i> <span>DATA
+				EXPORT</span>
+		</h3>
+		<div class="btn-group widget-header-toolbar visible-lg">
+			<a href="#" title="Expand/Collapse"
+				class="btn btn-link btn-toggle-expand"><i
+				class="icon ion-ios-arrow-up"></i></a> <a href="#" title="Remove"
+				class="btn btn-link btn-remove"><i
+				class="icon ion-ios-close-empty"></i></a>
+		</div>
+	</div>
+	<div class="widget-content no-padding">
+
+		<div class="table-responsive ">
+			<div class="pull-right">
+				<div class="input-group input-group-sm" style="margin: 10px">
+					<div class="input-group-btn">
+						<button type="submit" class="btn btn-success btn-sm">
+							<i class="icon ion-android-search"></i>
+						</button>
+					</div>
+					<input class="form-control input-sm" type="text"
+						placeholder="type keyword..." />
+
+				</div>
+			</div>
+			<table id="datatable-data-export" style="margin: 0px; padding: 0px;"
+				class="table table-sorting table-striped table-hover table-bordered datatable">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Name</th>
+						<th>Visits</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="data in dataArray">
+						<td>{{data.id}}</td>
+						<td>{{data.name}}</td>
+						<td>{{data.visits}}</td>
+					</tr>
+				</tbody>
+
+			</table>
+			<div class="pull-right" style="padding-right: 10px">
+				<ul uib-pagination total-items="bigTotalItems"
+					ng-model="bigCurrentPage" max-size="maxSize" class="pagination-sm"
+					boundary-link-numbers="true" rotate="true"></ul>
+			</div>
+		</div>
+	</div>
+</div>

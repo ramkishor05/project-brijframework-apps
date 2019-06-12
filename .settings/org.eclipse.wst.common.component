@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="project-brijframework-apps">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="org.brijframework-model-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.brijframework-model/org.brijframework-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.brijframework-data-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.brijframework-data/org.brijframework-data">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.brijframework-asm-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.brijframework-asm/org.brijframework-asm">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.brijframework-meta-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.brijframework-meta/org.brijframework-meta">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.brijframework-base-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.brijframework-base/org.brijframework-base">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.brijframework-support-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.brijframework-support/org.brijframework-support">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.brijframework-monitor-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.brijframework-monitor/org.brijframework-monitor">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.brijframework-util-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.brijframework-util/org.brijframework-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.brijframework-logger-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.brijframework-logger/org.brijframework-logger">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.brijframework-resources-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.brijframework-resources/org.brijframework-resources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/project-brijframework-apps/target/classes"/>
+        <property name="context-root" value="project-brijframework-apps"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,372 @@
+
+************************************************************
+		Sat Aug 19 19:10:23 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> indexes
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> DirResource
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Configration
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> post
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> post
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.flushMode
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.hbm2ddl.auto
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.show_sql
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> networkID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Password
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hostName
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> port
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> networkID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hostAddress
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Password
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCategoryGroup e  WHERE  e.uniqueID = :uniqueID
+
+************************************************************
+		Sat Aug 19 19:11:03 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> indexes
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> DirResource
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Configration
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> post
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> post
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.flushMode
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.hbm2ddl.auto
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.show_sql
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> networkID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Password
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hostName
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> port
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> networkID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hostAddress
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Password
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCategoryGroup e  WHERE  e.uniqueID = :uniqueID
+
+************************************************************
+		Sat Aug 19 19:15:32 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> indexes
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> DirResource
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Configration
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> post
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> post
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.flushMode
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.hbm2ddl.auto
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.show_sql
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> networkID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Password
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hostName
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> port
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> networkID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hostAddress
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Password
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCategoryGroup e  WHERE  e.uniqueID = :uniqueID
+
+************************************************************
+		Sat Aug 19 19:19:10 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> indexes
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> DirResource
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Configration
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> post
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> post
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.flushMode
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.hbm2ddl.auto
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.show_sql
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> networkID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Password
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hostName
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> port
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> networkID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hostAddress
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Password
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCategoryGroup e  WHERE  e.uniqueID = :uniqueID
+
+************************************************************
+		Sat Aug 19 19:20:27 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> indexes
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> DirResource
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Configration
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> post
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> post
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.flushMode
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.hbm2ddl.auto
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.show_sql
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> networkID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Password
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hostName
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> port
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> networkID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hostAddress
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Password
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCategoryGroup e  WHERE  e.uniqueID = :uniqueID
+
+************************************************************
+		Sat Aug 19 19:21:54 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> indexes
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> uniqueConstraints
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> DirResource
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Configration
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> post
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> post
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.flushMode
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.hbm2ddl.auto
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hibernate.show_sql
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> networkID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Password
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hostName
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> port
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Username
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> networkID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> hostAddress
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :FIELD_NOT_FOUND-> Password
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOCategoryGroup e  WHERE  e.uniqueID = :uniqueID

@@ -1,0 +1,408 @@
+
+************************************************************
+		Mon Aug 14 17:56:55 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:786)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:763)
+	at org.brijframework.db.builder.DataBuilder.updateObject(DataBuilder.java:540)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:337)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:404)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:609)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:667)
+	at org.brijframework.store.inventory.InvTestMain.main(InvTestMain.java:14)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 8 more
+
+
+************************************************************
+		Mon Aug 14 20:44:23 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:794)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:771)
+	at org.brijframework.db.builder.DataBuilder.updateObject(DataBuilder.java:543)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:337)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:404)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:612)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:678)
+	at org.brijframework.store.inventory.InvTestMain.main(InvTestMain.java:14)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 8 more
+
+
+************************************************************
+		Mon Aug 14 20:53:16 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:org.brijframework.logger.LogTracker: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.db.builder.DataBuilder.update(DataBuilder.java:792)
+	at org.brijframework.db.builder.DataBuilder.objectForState(DataBuilder.java:769)
+	at org.brijframework.db.builder.DataBuilder.updateObject(DataBuilder.java:543)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:337)
+	at org.brijframework.db.builder.RelCollection.updateToCollection(RelCollection.java:404)
+	at org.brijframework.db.builder.DataBuilder.updateToRel(DataBuilder.java:612)
+	at org.brijframework.beans.DataBean.updateToRel(DataBean.java:678)
+	at org.brijframework.store.inventory.InvTestMain.main(InvTestMain.java:14)
+Caused by: java.lang.Throwable: Object not found for update class org.brijframework.store.inventory.EOIngr
+	at org.brijframework.logger.LogTracker.<init>(LogTracker.java:20)
+	... 8 more
+
+
+************************************************************
+		Mon Aug 14 21:22:41 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :OBJECT_NOT_FOUND
+
+************************************************************
+		Mon Aug 14 21:28:56 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :OBJECT_NOT_FOUND
+
+************************************************************
+		Mon Aug 14 21:29:28 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :OBJECT_NOT_FOUND
+
+************************************************************
+		Mon Aug 14 21:30:57 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :OBJECT_NOT_FOUND
+
+************************************************************
+		Mon Aug 14 21:34:09 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :keys or params not valid
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :OBJECT_NOT_FOUND
+
+************************************************************
+		Mon Aug 14 21:35:08 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+
+************************************************************
+		Mon Aug 14 21:36:48 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+
+************************************************************
+		Mon Aug 14 21:41:37 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+
+************************************************************
+		Mon Aug 14 21:49:13 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngrLocation e  WHERE  e.uniqueID = :uniqueID
+
+************************************************************
+		Mon Aug 14 21:57:18 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :DBMeta done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Scanning schema package :org
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data loading............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :Globel data done............
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOInvApp e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :HQL :FROM EOIngr e  WHERE  e.uniqueID = :uniqueID
+
+************************************************************
+		Mon Aug 14 23:58:08 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :INIT_OBJECT_NOT_FOUND
+
+************************************************************
+		Mon Aug 14 23:59:05 IST 2017
+************************************************************
+LOG INFO-------------- x ----------------------------x--------------------------
+INFO :INIT_OBJECT_NOT_FOUND

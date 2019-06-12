@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" ng-app="webApps">
+<head>
+<title>Dashboard | QueenAdmin - Beautiful Admin Dashboard</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="QueenAdmin - Beautiful Bootstrap Admin Dashboard Theme">
+<meta name="author" content="The Develovers">
+<!-- CSS -->
+<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="assets/css/ionicons.css" rel="stylesheet" type="text/css">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,700' rel='stylesheet' type='text/css'>
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" type="image/png" sizes="144x144" href="assets/ico/queenadmin-favicon144x144.png">
+<link rel="apple-touch-icon-precomposed" type="image/png"sizes="114x114" href="assets/ico/queenadmin-favicon114x114.png">
+<link rel="apple-touch-icon-precomposed" type="image/png" sizes="72x72" href="assets/ico/queenadmin-favicon72x72.png">
+<link rel="apple-touch-icon-precomposed" type="image/png" sizes="57x57" href="assets/ico/queenadmin-favicon57x57.png">
+<link rel="shortcut icon" href="assets/ico/favicon.ico">
+</head>
+
+<body ng-controller="webAppsCtrl">
+
+<!-- Javascript -->
+<script src="assets/js/jquery/jquery-2.1.0.min.js"></script>
+<script src="assets/js/bootstrap/bootstrap.js"></script>
+<script src="assets/js/plugins/bootstrap-multiselect/bootstrap-multiselect.js"></script>
+<script src="assets/js/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/js/queen-common.js"></script>
+<script src="assets/js/plugins/stat/flot/jquery.flot.min.js"></script>
+<script src="assets/js/plugins/stat/flot/jquery.flot.resize.min.js"></script>
+<script src="assets/js/plugins/stat/flot/jquery.flot.time.min.js"></script>
+<script src="assets/js/plugins/stat/flot/jquery.flot.orderBars.js"></script>
+<script src="assets/js/plugins/stat/flot/jquery.flot.tooltip.min.js"></script>
+<script src="assets/js/plugins/mapael/raphael/raphael-min.js"></script>
+<script src="assets/js/plugins/mapael/jquery.mapael.js"></script>
+<script src="assets/js/plugins/mapael/maps/world_countries.js"></script>
+<script src="assets/js/plugins/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+<script src="assets/js/plugins/moment/moment.min.js"></script>
+<script src="assets/js/plugins/bootstrap-editable/bootstrap-editable.min.js"></script>
+<script src="assets/js/plugins/jquery-maskedinput/jquery.masked-input.min.js"></script>
+<script src="assets/js/queen-charts.js"></script>
+<script src="assets/js/queen-maps.js"></script>
+<script src="assets/js/queen-elements.js"></script>
+
+<!-- <script>
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script',
+			'../../../www.google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-67690109-2', 'auto');
+	ga('send', 'pageview');
+</script> -->
+
+  <!--build:js angular-1.4.8/angular-1.4.8.min.js-->
+    <script src="tp/angular-1.4.8/angular.js"></script>
+    <script src="tp/angular-1.4.8/angular-route.js"></script>
+    <script src="tp/angular-1.4.8/angular-sanitize.js"></script>
+    <script src="tp/angular-1.4.8/angular-animate.js"></script>
+    <script src="tp/angular-1.4.8/angular-cookies.js"></script>
+    <script src="tp/angular-1.4.8/angular-resource.js"></script>
+   	<script src="brijframework/libs/angularjs/angular-ui-router.min.js"></script>
+	<script src="brijframework/libs/angularjs/angular-animate.min.js"></script>
+	<script src="brijframework/libs/angularjs/angular-aria.min.js"></script>
+	<script src="brijframework/libs/angularjs/angular-messages.min.js"></script>
+	<script src="brijframework/libs/angularjs/angular-resource.min.js"></script>
+	<script src="brijframework/libs/angularjs/material/angular-material.min.js"></script>
+	<script src="brijframework/libs/angularjs/ui-bootstrap-tpls-2.2.0.min.js"></script>
+	<script src="brijframework/libs/angularjs/processbar/loading-bar.js"></script>
+	<script src="brijframework/libs/angularjs/angular-sanitize.js"></script>
+    <script src="brijframework/tp/angular-1.5.7/angular-cookies.min.js"></script>
+  <!--endbuild-->
+  
+  <!-- brijframework -->
+  <!-- root -->
+    <script type='text/javascript' src="brijframework/libs/notify/pnotify/pnotify.custom.js"></script>
+    <script type='text/javascript' src="brijframework/libs/notify/pnotify/notifications-pnotify.js"></script>
+    <link href="brijframework/libs/notify/pnotify/pnotify.custom.css" rel="stylesheet" type="text/css">
+	
+	<script type="text/javascript" src="brijframework/webApp.js"></script>
+	
+	 <!-- web objects -->
+    <script type="text/javascript" src="brijframework/WebObject.js"></script>
+    
+	<!-- utils  -->
+	<script type="text/javascript" src="brijframework/util/baseUtil.js"></script>
+	<script type="text/javascript" src="brijframework/util/objectUtil.js"></script>
+	<script type="text/javascript" src="brijframework/util/dateUtil.js"></script>
+	<script type="text/javascript" src="brijframework/services/GlobalService.js"></script>
+	
+	<!-- services -->
+	<script type="text/javascript" src="brijframework/services/ajaxServices.js"></script>
+	<script type="text/javascript" src="brijframework/services/metaDataServices.js"></script>
+	<script type="text/javascript" src="brijframework/services/dataServices.js"></script>
+	<script type="text/javascript" src="brijframework/services/notificationMessage.js"></script>
+	<script type="text/javascript" src="brijframework/services/messageServices.js"></script>
+	
+	<!-- element component -->
+	<script type="text/javascript" src="brijframework/component/UIMetaObjects.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-message/modalMessage.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-panel/alertPanel.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-modal/uiDataModal.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-modal/uiModal.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-search/uiSearch.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-table/uiTable.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-pagination/uiPagination.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-field/uiEditField.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-field/uiField.js"></script>
+	<script type="text/javascript" src="brijframework/component/ui-lookup/uiLookup.js"></script>
+    <script type="text/javascript" src="brijframework/component/ui-photo/uiPhoto.js"></script>
+    <script type="text/javascript" src="brijframework/wizard/login/loginWizard.js"></script>
+    <script type="text/javascript" src="brijframework/wizard/detail/detailWizard.js"></script>
+     <!-- end  -->
+
+	<!--build:js webApps/webApps-1.0.min.js-->
+	<script src="apps/webApps.js"></script>
+	<script src="apps/frame/appHeaderCtrl.js"></script>
+	<script src="apps/frame/appMenusCtrl.js"></script>
+	<script src="apps/tableCtrl.js"></script>
+	
+	<!-- app -->
+	 <link rel="stylesheet" href="assets/app/invapp.css"></script>
+	<script type="text/javascript" src="apps/landing/userControlCtrl.js"></script>
+	<script type="text/javascript" src="apps/landing/appMarketCtrl.js"></script>
+	<script type="text/javascript" src="apps/landing/userLandingCtrl.js"></script>
+	<script type="text/javascript" src="apps/app/appCtrl.js"></script>
+	
+	<script type="text/javascript" src="apps/inventory/invApp.js"></script>
+	<script type="text/javascript" src="apps/inventory/invMainCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/invObjects.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invCategoryGroupCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invCategoryGroupMdlCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invCategoryCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invCategoryMdlCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invIngrCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invIngrMdlCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invPrepCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invPrepMdlCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invProductCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invProductMdlCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invCountFreqCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invStorageCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invStorageDetailCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invStorageMdlCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/setting/invLocationMdlCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/notification/invNotificationCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/main/invInventoryCtrl.js"></script>
+	<script type="text/javascript" src="apps/inventory/dashboard/invDashboardCtrl.js"></script>
+	<!-- WRAPPER -->
+	<div>
+		<div ui-view></div>
+	</div>
+	<!-- END WRAPPER -->
+</body>
+</html>
